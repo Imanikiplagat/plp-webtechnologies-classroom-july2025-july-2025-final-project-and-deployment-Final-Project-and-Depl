@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import sdgImage from "@/assets/sdg-zero-hunger.jpg";
+import sdgImage from "@/assets/Resources.jpeg";
 
 const SDGSection = () => {
   return (

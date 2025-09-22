@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faFacebookF, faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons'
+
 const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-16">
@@ -15,15 +18,47 @@ const Footer = () => {
               Empowering farmers worldwide with AI-driven crop yield predictions, 
               contributing to global food security and sustainable agriculture.
             </p>
+
+            {/* Social Media Icons */}
             <div className="mt-6 flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth">
-                <span className="text-primary-foreground">📧</span>
+              {/* Twitter */}
+              <a 
+                href="https://twitter.com/@kiplagat2307" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth"
+              >
+                <FontAwesomeIcon icon={faTwitter} className="text-primary-foreground text-lg" />
               </a>
-              <a href="#" className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth">
-                <span className="text-primary-foreground">📱</span>
+
+              {/* Facebook */}
+              <a 
+                href="https://facebook.com/"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth"
+              >
+                <FontAwesomeIcon icon={faFacebookF} className="text-primary-foreground text-lg" />
               </a>
-              <a href="#" className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth">
-                <span className="text-primary-foreground">🌐</span>
+
+              {/* WhatsApp */}
+              <a 
+                href="https://wa.me/254782089708" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth"
+              >
+                <FontAwesomeIcon icon={faWhatsapp} className="text-primary-foreground text-lg" />
+              </a>
+
+              {/* Instagram */}
+              <a 
+                href="https://instagram.com/Robi_fay" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth"
+              >
+                <FontAwesomeIcon icon={faInstagram} className="text-primary-foreground text-lg" />
               </a>
             </div>
           </div>
@@ -53,7 +88,7 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-primary-foreground/20 flex flex-col md:flex-row justify-between items-center">
           <p className="text-primary-foreground/60 text-sm">
-            © 2024 AgriPredict. All rights reserved. Contributing to UN SDG 2: Zero Hunger.
+            © 2025 AgriPredict. All rights reserved. Contributing to UN SDG 2: Zero Hunger. PLP Academy
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6 text-sm">
             <a href="#" className="text-primary-foreground/60 hover:text-primary-foreground transition-smooth">Privacy Policy</a>
@@ -63,7 +98,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

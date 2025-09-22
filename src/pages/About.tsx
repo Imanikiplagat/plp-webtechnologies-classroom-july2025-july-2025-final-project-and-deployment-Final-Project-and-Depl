@@ -5,29 +5,18 @@ import { Card, CardContent } from "@/components/ui/card";
 const About = () => {
   const team = [
     {
-      name: "Dr. Sarah Chen",
-      role: "Chief Technology Officer",
-      description: "PhD in Agricultural Engineering with 15+ years in precision farming technology.",
+      name: "Ms.Faith kiplagat",
+      role: "Data Scientist",
+      description: "A A graduate data scientist with a strong foundation in statistical analysis, machine learning, and data-driven problem solving",
       icon: "👩‍💻"
     },
     {
-      name: "Michael Rodriguez",
-      role: "Head of AI Research",
-      description: "Machine learning expert specializing in agricultural predictive models.",
+      name: "Brian Kipchumba",
+      role: "Software Engineer",
+      description: "A graduate software engineer with a solid foundation in programming, software development, and system design. Skilled in modern languages and frameworks, with experience building reliable, efficient, and scalable applications.",
       icon: "🧠"
-    },
-    {
-      name: "Priya Patel",
-      role: "Sustainability Director",
-      description: "Environmental scientist focused on sustainable agricultural practices.",
-      icon: "🌱"
-    },
-    {
-      name: "James Thompson",
-      role: "Product Manager",
-      description: "Former farmer turned tech leader, bridging agriculture and innovation.",
-      icon: "🚀"
     }
+   
   ];
 
   return (

@@ -109,8 +109,8 @@ const Contact = () => {
                           Call Us
                         </h3>
                         <p className="text-muted-foreground">
-                          +1 (555) 123-4567<br />
-                          Mon-Fri: 9AM-6PM EST
+                          +254 7123456789<br />
+                          Mon-Fri: 9AM-6PM EAT
                         </p>
                       </div>
                     </div>
@@ -128,9 +128,9 @@ const Contact = () => {
                           Visit Us
                         </h3>
                         <p className="text-muted-foreground">
-                          123 Innovation Drive<br />
-                          AgriTech Hub, CA 94105<br />
-                          United States
+                          Moi Avenue<br />
+                          AgriTech Hub, 2nd floor<br />
+                          Kenya.
                         </p>
                       </div>
                     </div>
